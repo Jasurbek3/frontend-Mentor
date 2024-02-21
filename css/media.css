@@ -1,0 +1,44 @@
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 60px 15px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .main-text {
+        width: 100%;
+        padding: 0;
+        margin-bottom: 70px;
+    }
+
+    .cards {
+        display: block;
+    }
+
+    .cards .col {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}

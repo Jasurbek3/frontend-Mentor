@@ -1,0 +1,111 @@
+@import url(./fonts.css);
+
+:root {
+    --red: #EA5454;
+    --cyan: #44D3D2;
+    --orange: #FCAE4A;
+    --blue: #549EF2;
+    --blue-black: hsl(228, 45%, 44%);
+    --heading-color: hsl(234, 12%, 34%);
+    --paragraph-color: hsl(229, 6%, 66%);
+    --body-background: hsl(0, 0%, 98%);
+    --white: #fff;
+    --Poppins: "Poppins";
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: var(--Poppins);
+}
+
+main {
+    background-color: var(--body-background);
+    padding: 50px 0;
+}
+
+.container {
+    padding: 0 15px;
+    margin: auto;
+}
+
+h1,
+h2 {
+    color: var(--heading-color);
+}
+
+h2 {
+    font-size: 18px;
+}
+
+p {
+    color: var(--paragraph-color);
+    font-size: 15px;
+    margin: 10px 0 30px;
+    line-height: 1.6;
+    font-weight: 600;
+}
+.main-text{
+    max-width: 540px;
+    width: 100%;
+}
+img {
+    display: block;
+    margin-left: auto;
+}
+
+.main-txt {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+}
+.span {
+    display: block;
+    font-weight: 300;
+    color: var(--paragraph-color);
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards .col {
+    width: calc(94% / 3);
+}
+
+.cards .card {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 10px 10px #ddd;
+}
+
+.cyan {
+    border-top: 4px solid var(--cyan);
+}
+
+.red {
+    border-top: 4px solid var(--red);
+    margin-bottom: 30px;
+}
+
+.orange {
+    border-top: 4px solid var(--orange);
+}
+
+.blue {
+    border-top: 4px solid var(--blue);
+}
